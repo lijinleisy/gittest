@@ -1,0 +1,93 @@
+jffs2_1pass.o: jffs2_1pass.c /root/jz2440/u-boot-1.1.6/include/common.h \
+  /root/jz2440/u-boot-1.1.6/include/config.h \
+  /root/jz2440/u-boot-1.1.6/include/configs/100ask24x0.h \
+  /root/jz2440/u-boot-1.1.6/include/cmd_confdefs.h \
+  /root/jz2440/u-boot-1.1.6/include/linux/bitops.h \
+  /root/jz2440/u-boot-1.1.6/include/asm/bitops.h \
+  /root/jz2440/u-boot-1.1.6/include/linux/types.h \
+  /root/jz2440/u-boot-1.1.6/include/linux/config.h \
+  /root/jz2440/u-boot-1.1.6/include/linux/posix_types.h \
+  /root/jz2440/u-boot-1.1.6/include/linux/stddef.h \
+  /root/jz2440/u-boot-1.1.6/include/asm/posix_types.h \
+  /root/jz2440/u-boot-1.1.6/include/asm/types.h \
+  /root/jz2440/u-boot-1.1.6/include/linux/string.h \
+  /root/jz2440/u-boot-1.1.6/include/asm/string.h \
+  /root/jz2440/u-boot-1.1.6/include/asm/ptrace.h \
+  /root/jz2440/u-boot-1.1.6/include/asm/proc/ptrace.h \
+  /usr/arm/gcc-3.4.5-glibc-2.3.6/bin/../lib/gcc/arm-linux/3.4.5/include/stdarg.h \
+  /root/jz2440/u-boot-1.1.6/include/part.h \
+  /root/jz2440/u-boot-1.1.6/include/ide.h \
+  /root/jz2440/u-boot-1.1.6/include/flash.h \
+  /root/jz2440/u-boot-1.1.6/include/image.h \
+  /root/jz2440/u-boot-1.1.6/include/asm/u-boot.h \
+  /root/jz2440/u-boot-1.1.6/include/asm/global_data.h \
+  /root/jz2440/u-boot-1.1.6/include/asm/mach-types.h \
+  /root/jz2440/u-boot-1.1.6/include/asm/setup.h \
+  /root/jz2440/u-boot-1.1.6/include/asm/u-boot-arm.h \
+  /root/jz2440/u-boot-1.1.6/include/malloc.h \
+  /root/jz2440/u-boot-1.1.6/include/linux/stat.h \
+  /root/jz2440/u-boot-1.1.6/include/linux/time.h \
+  /root/jz2440/u-boot-1.1.6/include/jffs2/jffs2.h \
+  /root/jz2440/u-boot-1.1.6/include/jffs2/load_kernel.h \
+  /root/jz2440/u-boot-1.1.6/include/linux/list.h \
+  /root/jz2440/u-boot-1.1.6/include/jffs2/jffs2_1pass.h jffs2_private.h \
+  /root/jz2440/u-boot-1.1.6/include/nand.h \
+  /root/jz2440/u-boot-1.1.6/include/linux/mtd/compat.h \
+  /root/jz2440/u-boot-1.1.6/include/linux/mtd/mtd.h \
+  /root/jz2440/u-boot-1.1.6/include/linux/mtd/mtd-abi.h \
+  /root/jz2440/u-boot-1.1.6/include/linux/mtd/nand.h
+compr_rtime.o: compr_rtime.c /root/jz2440/u-boot-1.1.6/include/config.h \
+  /root/jz2440/u-boot-1.1.6/include/configs/100ask24x0.h \
+  /root/jz2440/u-boot-1.1.6/include/cmd_confdefs.h \
+  /root/jz2440/u-boot-1.1.6/include/jffs2/jffs2.h \
+  /root/jz2440/u-boot-1.1.6/include/asm/types.h \
+  /root/jz2440/u-boot-1.1.6/include/jffs2/load_kernel.h \
+  /root/jz2440/u-boot-1.1.6/include/linux/list.h
+compr_rubin.o: compr_rubin.c /root/jz2440/u-boot-1.1.6/include/config.h \
+  /root/jz2440/u-boot-1.1.6/include/configs/100ask24x0.h \
+  /root/jz2440/u-boot-1.1.6/include/cmd_confdefs.h \
+  /root/jz2440/u-boot-1.1.6/include/jffs2/jffs2.h \
+  /root/jz2440/u-boot-1.1.6/include/asm/types.h \
+  /root/jz2440/u-boot-1.1.6/include/jffs2/load_kernel.h \
+  /root/jz2440/u-boot-1.1.6/include/linux/list.h \
+  /root/jz2440/u-boot-1.1.6/include/jffs2/compr_rubin.h
+compr_zlib.o: compr_zlib.c /root/jz2440/u-boot-1.1.6/include/common.h \
+  /root/jz2440/u-boot-1.1.6/include/config.h \
+  /root/jz2440/u-boot-1.1.6/include/configs/100ask24x0.h \
+  /root/jz2440/u-boot-1.1.6/include/cmd_confdefs.h \
+  /root/jz2440/u-boot-1.1.6/include/linux/bitops.h \
+  /root/jz2440/u-boot-1.1.6/include/asm/bitops.h \
+  /root/jz2440/u-boot-1.1.6/include/linux/types.h \
+  /root/jz2440/u-boot-1.1.6/include/linux/config.h \
+  /root/jz2440/u-boot-1.1.6/include/linux/posix_types.h \
+  /root/jz2440/u-boot-1.1.6/include/linux/stddef.h \
+  /root/jz2440/u-boot-1.1.6/include/asm/posix_types.h \
+  /root/jz2440/u-boot-1.1.6/include/asm/types.h \
+  /root/jz2440/u-boot-1.1.6/include/linux/string.h \
+  /root/jz2440/u-boot-1.1.6/include/asm/string.h \
+  /root/jz2440/u-boot-1.1.6/include/asm/ptrace.h \
+  /root/jz2440/u-boot-1.1.6/include/asm/proc/ptrace.h \
+  /usr/arm/gcc-3.4.5-glibc-2.3.6/bin/../lib/gcc/arm-linux/3.4.5/include/stdarg.h \
+  /root/jz2440/u-boot-1.1.6/include/part.h \
+  /root/jz2440/u-boot-1.1.6/include/ide.h \
+  /root/jz2440/u-boot-1.1.6/include/flash.h \
+  /root/jz2440/u-boot-1.1.6/include/image.h \
+  /root/jz2440/u-boot-1.1.6/include/asm/u-boot.h \
+  /root/jz2440/u-boot-1.1.6/include/asm/global_data.h \
+  /root/jz2440/u-boot-1.1.6/include/asm/mach-types.h \
+  /root/jz2440/u-boot-1.1.6/include/asm/setup.h \
+  /root/jz2440/u-boot-1.1.6/include/asm/u-boot-arm.h \
+  /root/jz2440/u-boot-1.1.6/include/jffs2/jffs2.h \
+  /root/jz2440/u-boot-1.1.6/include/jffs2/load_kernel.h \
+  /root/jz2440/u-boot-1.1.6/include/linux/list.h \
+  /root/jz2440/u-boot-1.1.6/include/jffs2/mini_inflate.h
+mini_inflate.o: mini_inflate.c /root/jz2440/u-boot-1.1.6/include/config.h \
+  /root/jz2440/u-boot-1.1.6/include/configs/100ask24x0.h \
+  /root/jz2440/u-boot-1.1.6/include/cmd_confdefs.h \
+  /root/jz2440/u-boot-1.1.6/include/jffs2/mini_inflate.h
+compr_lzo.o: compr_lzo.c /root/jz2440/u-boot-1.1.6/include/config.h \
+  /root/jz2440/u-boot-1.1.6/include/configs/100ask24x0.h \
+  /root/jz2440/u-boot-1.1.6/include/cmd_confdefs.h
+compr_lzari.o: compr_lzari.c /root/jz2440/u-boot-1.1.6/include/config.h \
+  /root/jz2440/u-boot-1.1.6/include/configs/100ask24x0.h \
+  /root/jz2440/u-boot-1.1.6/include/cmd_confdefs.h
